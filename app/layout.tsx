@@ -15,10 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "DevFlow",
-  description: "A better version of Stackover Flow",
+  description: "A better version of Stack Overflow",
 };
 
-export default function RootLayout({
+export default function RootLayout({  
   children,
 }: Readonly<{
   children: React.ReactNode;
