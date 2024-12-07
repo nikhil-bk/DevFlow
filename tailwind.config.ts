@@ -59,9 +59,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    import("tailwindcss-animate"), 
-    import("@tailwindcss/typography")],
 };
 
 export default config;
